@@ -3,8 +3,8 @@ import dataset.DataSet;
 import decision_tree.DecisionTree;
 class Main {
     public static void main(String[] args) {
-        String weatherDatasetPath = "/home/shannon/Documents/practical/DM/Decision tree/datasets/weather.txt";
-        String shapesDatasetPath = "/home/shannon/Documents/practical/DM/Decision tree/datasets/shapes.txt";
+        String weatherDatasetPath = "../datasets/weather.txt";
+        String shapesDatasetPath = "../datasets/shapes.txt";
         System.out.println("Running decision tree algorithm on shapes data set");
         runID3(shapesDatasetPath);
         System.out.println("Running decision tree algorithm on weather data set");
