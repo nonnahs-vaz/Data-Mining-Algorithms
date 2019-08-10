@@ -18,7 +18,7 @@ class KMeans {
 
         DataSet D;
         try {
-            D = new DataSet(new File("/home/shannon/Documents/practical/DM/K_Means/datasets/iris_dataset.txt"));
+            D = new DataSet(new File("./datasets/iris_dataset.txt"));
         }
         catch(IOException e) {
             System.out.println(e);
