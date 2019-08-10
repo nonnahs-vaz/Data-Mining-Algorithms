@@ -1,0 +1,7 @@
+F1,F2,F3,Category
+A,T,L,+
+B,F,M,+
+B,F,H,+
+B,T,M,-
+A,F,L,-
+A,T,H,-
