@@ -7,8 +7,8 @@ class KNN {
         Record testRecord2 = new Record(record2.split(","));
         DataSet first,second;
         try {
-            first = new DataSet(new File("/home/shannon/Documents/practical/DM/KNN/datasets/first.txt"));
-            second = new DataSet(new File("/home/shannon/Documents/practical/DM/KNN/datasets/second.txt"));
+            first = new DataSet(new File("./datasets/first.txt"));
+            second = new DataSet(new File("./datasets/second.txt"));
         }
         catch(IOException e) {
             System.out.println(e);
